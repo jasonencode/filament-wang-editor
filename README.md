@@ -39,14 +39,6 @@ return [
 ## Usage
 
 ```php
-$wangEditor = new Jason\WangEditor();
-echo $wangEditor->echoPhrase('Hello, Jason!');
-```
-
-## Testing
-
-```bash
-composer test
 ```
 
 ## Changelog

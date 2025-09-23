@@ -1,22 +1,17 @@
 {
     "name": "jason/wang-editor",
-    "description": "This is my package wang-editor",
+    "description": "",
     "keywords": [
         "Jason.Chen",
         "laravel",
         "wang-editor"
     ],
     "homepage": "https://github.com/jason/wang-editor",
-    "support": {
-        "issues": "https://github.com/jason/wang-editor/issues",
-        "source": "https://github.com/jason/wang-editor"
-    },
     "license": "MIT",
     "authors": [
         {
             "name": "Jason",
-            "email": "chenjxlg@163.com",
-            "role": "Developer"
+            "email": "chenjxlg@163.com"
         }
     ],
     "require": {
@@ -29,16 +24,8 @@
             "Jason\\WangEditor\\": "src/"
         }
     },
-    "scripts": {
-        "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi",
-        "format": "vendor/bin/pint"
-    },
     "config": {
-        "sort-packages": true,
-        "allow-plugins": {
-            "pestphp/pest-plugin": true,
-            "phpstan/extension-installer": true
-        }
+        "sort-packages": true
     },
     "extra": {
         "laravel": {
@@ -50,6 +37,5 @@
             }
         }
     },
-    "minimum-stability": "dev",
     "prefer-stable": true
 }
