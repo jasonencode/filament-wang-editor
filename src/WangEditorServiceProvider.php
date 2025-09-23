@@ -85,7 +85,7 @@ class WangEditorServiceProvider extends PackageServiceProvider
     protected function getRoutes(): array
     {
         return [
-            'route.php',
+            'route',
         ];
     }
 
