@@ -3,7 +3,7 @@
     :field="$field"
 >
     <script
-        src="{{ \Filament\Support\Facades\FilamentAsset::getScriptSrc('wang-editor-scripts', package: 'jason/wang-editor') }}"></script>
+        src="{{ FilamentAsset::getScriptSrc('wang-editor-scripts', package: 'jason/wang-editor') }}"></script>
 
     <style>
         #editor—wrapper {
@@ -31,7 +31,7 @@
         </div>
     </div>
     <script>
-        const {createEditor, createToolbar} = window.wangEditor
+        const { createEditor, createToolbar } = window.wangEditor
 
         const editorConfig = {
             placeholder: '',
@@ -43,7 +43,8 @@
         }
 
         editorConfig.MENU_CONF['uploadImage'] = {
-            server: '/api/upload-img',
+            server: '{{ route('jason.wang-editor.upload') }}',
+            fieldName: 'wangeditor-upload-image'
         }
 
         const editor = createEditor({
