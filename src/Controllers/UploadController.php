@@ -7,8 +7,5 @@ use Illuminate\Routing\Controller;
 
 class UploadController extends Controller
 {
-    public function image(Request $request)
-    {
-
-    }
+    public function image(Request $request) {}
 }

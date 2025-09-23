@@ -20,7 +20,7 @@ class WangEditorServiceProvider extends PackageServiceProvider
     {
         $package->name(static::$name)
             ->hasRoutes(self::getRoutes())
-            ->hasInstallCommand(function(InstallCommand $command) {
+            ->hasInstallCommand(function (InstallCommand $command) {
                 $command->publishConfigFile();
             });
 
