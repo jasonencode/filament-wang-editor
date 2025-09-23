@@ -2,7 +2,13 @@
 
 namespace Jason\WangEditor\Controllers;
 
-class UploadController
-{
+use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 
+class UploadController extends Controller
+{
+    public function image(Request $request)
+    {
+
+    }
 }

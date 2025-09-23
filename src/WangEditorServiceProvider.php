@@ -19,7 +19,7 @@ class WangEditorServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package->name(static::$name)
-            ->hasCommands($this->getCommands())
+            ->hasRoutes(self::getRoutes())
             ->hasInstallCommand(function(InstallCommand $command) {
                 $command->publishConfigFile();
             });
@@ -68,7 +68,8 @@ class WangEditorServiceProvider extends PackageServiceProvider
     {
         return [
             Css::make('wang-editor-styles', __DIR__.'/../resources/dist/wang-editor.css'),
-            Js::make('wang-editor-scripts', __DIR__.'/../resources/dist/wang-editor.js'),
+            Js::make('wang-editor-scripts', __DIR__.'/../resources/dist/wang-editor.js')
+                ->loadedOnRequest(),
         ];
     }
 
@@ -85,7 +86,9 @@ class WangEditorServiceProvider extends PackageServiceProvider
      */
     protected function getRoutes(): array
     {
-        return [];
+        return [
+            'route.php',
+        ];
     }
 
     /**
@@ -94,7 +97,6 @@ class WangEditorServiceProvider extends PackageServiceProvider
     protected function getScriptData(): array
     {
         return [
-            Js::make('wang-editor-index', __DIR__.'/../resources/js/index.js'),
         ];
     }
 }
