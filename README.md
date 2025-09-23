@@ -1,9 +1,9 @@
-# This is my package wang-editor
+# Filament WangEditor
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/jason-chen/wang-editor.svg?style=flat-square)](https://packagist.org/packages/jason-chen/wang-editor)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/jason-chen/wang-editor/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/jason-chen/wang-editor/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jason-chen/wang-editor/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/jason-chen/wang-editor/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/jason-chen/wang-editor.svg?style=flat-square)](https://packagist.org/packages/jason-chen/wang-editor)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/jason/wang-editor.svg?style=flat-square)](https://packagist.org/packages/jason/wang-editor)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/jason/wang-editor/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/jason/wang-editor/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jason/wang-editor/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/jason/wang-editor/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/jason/wang-editor.svg?style=flat-square)](https://packagist.org/packages/jason/wang-editor)
 
 
 
@@ -14,7 +14,7 @@ This is where your description should go. Limit it to a paragraph or two. Consid
 You can install the package via composer:
 
 ```bash
-composer require jason-chen/wang-editor
+composer require jason/wang-editor
 ```
 
 You can publish and run the migrations with:

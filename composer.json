@@ -1,15 +1,15 @@
 {
-    "name": "jason-chen/wang-editor",
+    "name": "jason/wang-editor",
     "description": "This is my package wang-editor",
     "keywords": [
         "Jason.Chen",
         "laravel",
         "wang-editor"
     ],
-    "homepage": "https://github.com/jason-chen/wang-editor",
+    "homepage": "https://github.com/jason/wang-editor",
     "support": {
-        "issues": "https://github.com/jason-chen/wang-editor/issues",
-        "source": "https://github.com/jason-chen/wang-editor"
+        "issues": "https://github.com/jason/wang-editor/issues",
+        "source": "https://github.com/jason/wang-editor"
     },
     "license": "MIT",
     "authors": [
@@ -39,8 +39,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Jason\\WangEditor\\": "src/",
-            "Jason\\WangEditor\\Database\\Factories\\": "database/factories/"
+            "Jason\\WangEditor\\": "src/"
         }
     },
     "scripts": {
